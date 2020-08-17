@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .header{
@@ -58,7 +59,47 @@ body{
     display: flex;
     flex-direction: column;
     margin-left: 300px;
+    margin-right: 450px;
 }
 
+.banner_text-promo{
+    font-size: 85px;
+    font-weight: bold;
+    color: white;
+    margin-top: 100px;
+}
 
+.banner_text-precio{
+    color:white;
+    font-weight: bold;
+    font-size: 27px;
+    margin-top: 20px;
+}
 
+.buttonVerPlanes{
+    width: 200px;
+    height: 50px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 50px;
+    background-color: #1DB954;
+}
+
+.textoButton{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.banner_text-terminosCondiciones{
+    margin-top: 110px;
+    font-size: 15px;
+    color: white;
+}
+
+.banner_text-terminosCondiciones a{
+    text-decoration: underline;
+    color: white;
+}
