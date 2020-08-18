@@ -1,3 +1,4 @@
+/*animaciones para hover btones documentacion------->https://ianlunn.github.io/Hover/*/
 body{
     margin: 0;
     font-family: 'Noto Sans JP', sans-serif;
@@ -26,7 +27,7 @@ body{
 .header_menu-ul{
     list-style: none;
     display: flex;
-    margin-right: 500px;
+    margin-right: 400px;
     padding-top: 10px;
 }
 .header_menu-ul li{
@@ -83,6 +84,12 @@ body{
     border: none;
     border-radius: 50px;
     background-color: #1DB954;
+    transition: all .2s ease-in-out; 
+}
+
+.buttonVerPlanes:hover{
+    transform: scale(1.102); 
+    background-color: rgb(30, 215, 96);
 }
 
 .textoButton{
@@ -95,7 +102,7 @@ body{
 
 .banner_text-terminosCondiciones{
     margin-top: 110px;
-    font-size: 15px;
+    font-size: 13px;
     color: white;
 }
 
@@ -103,3 +110,4 @@ body{
     text-decoration: underline;
     color: white;
 }
+
