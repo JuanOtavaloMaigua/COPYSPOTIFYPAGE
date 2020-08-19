@@ -111,3 +111,50 @@ body{
     color: white;
 }
 
+
+.porqueSerPremium{
+    height: 600px;
+    width: 100%;
+    background-color: white;
+}
+
+.porqueSerPremium_text{
+    margin-right: 450px;
+    margin-left: 300px;
+    
+}
+
+.tituloPorQue{
+    font-size: 40px;
+    color:black;
+    font-family: 'Noto Sans JP', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding-top: 80px;
+}
+
+.listaBeneficios{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.listaBeneficiosTexto{
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.listaBeneficios header{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/*.porqueSerPremium_text-articulo{
+    flex-direction: column;
+}*/
+
