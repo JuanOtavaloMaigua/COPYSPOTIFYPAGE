@@ -112,13 +112,13 @@ body{
 }
 
 
-.porqueSerPremium{
+.bannerPremium{
     height: 600px;
     width: 100%;
     background-color: white;
 }
 
-.porqueSerPremium_text{
+.bannerPremium_Content{
     margin-right: 450px;
     margin-left: 300px;
     
@@ -134,27 +134,73 @@ body{
     padding-top: 80px;
 }
 
-.listaBeneficios{
+.cardView{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 40px;
+    margin-top: 100px;
+    justify-content: space-between;
 }
 
-.listaBeneficiosTexto{
-    flex-direction: column;
+.cardView_Content{
+    width: 270px;
+    height: 300px;
+}
+
+.cardView_Content_img{
+    display: flex;
     justify-content: center;
+    height: 200px;
 }
 
 
-.listaBeneficios header{
+.imgLogo{
+    width: 142px;
+    height: 142px;
+}
+
+.cardView_Content_text header{
+    display: flex;
+    justify-content: center;
     font-weight: bold;
+    text-align: center;
+    font-size: 21px;
+}
+.cardView_Content_text p{
     display: flex;
     justify-content: center;
     text-align: center;
+    font-size: 16px;
 }
 
-/*.porqueSerPremium_text-articulo{
-    flex-direction: column;
-}*/
+.elijePlan{
+    height: 1063px;
+    background-color: #F8F8F8;
+}
+.elijePlan_titulo{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 40px;
+    letter-spacing: -1px;
+}
+.elijePlan_subtitulo{
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+}   
 
+.elijePlan_precio{
+    width: 269px;
+    height: 705px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+    padding: 20px 20px;
+}
+
+.bannerPrecio{
+    margin-right: 450px;
+    margin-left: 300px;
+    
+}
