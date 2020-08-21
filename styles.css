@@ -1,4 +1,5 @@
 /*animaciones para hover btones documentacion------->https://ianlunn.github.io/Hover/*/
+/*https://www.toptal.com/designers/htmlarrows/symbols/check-mark/   ----- signos para html o css(no son logos)*/
 body{
     margin: 0;
     font-family: 'Noto Sans JP', sans-serif;
@@ -174,7 +175,13 @@ body{
 .elijePlan{
     height: 1063px;
     background-color: #F8F8F8;
+    padding-right: 10px;
 }
+
+.elijePlanT{
+    padding-top: 80px;
+}
+
 .elijePlan_titulo{
     display: flex;
     justify-content: center;
@@ -183,12 +190,19 @@ body{
     font-size: 40px;
     letter-spacing: -1px;
 }
+
+.elijeS{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .elijePlan_subtitulo{
     display: flex;
     justify-content: center;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 16px;
 }   
+
 
 .elijePlan_precio{
     width: 269px;
@@ -202,5 +216,121 @@ body{
 .bannerPrecio{
     margin-right: 450px;
     margin-left: 300px;
+    display: flex;
+}
+
+.cardViewMesGratis{
+    margin-bottom: 25px;
+}
+
+.mesGratis{
+    width: 100px;
+    height: 25px;
+    background-color: #2E77D0;
+    border-radius: 5px;
+}
+
+.mesGratis p{
+    display: flex;
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+    padding-top: 3px;
+}
+
+.cardViewPlanTitulo{
+    margin-bottom: 40px;
+}
+
+.tipoPlan{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.pruebaPrecio{
+    margin-bottom: 5px;
+}
+
+.infoPrecio{
+    font-size: 18px;
+}
+
+.elijePlan_precio-cuenta{
+   
+}
+
+.primerLinea{
+    width: 269px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(204, 204, 204);
+}
+
+.listaBeneficio{
+    margin-top: 30px;
+}
+
+.listaBeneficio li{
+    margin-bottom: 10px;
+}
+
+.beneficio1{
+    display: flex;
+
+}
+
+.beneficio1_check{
+    margin-left: -30px;
+    margin-right: 15px;
+    align-items: flex-start;
+}
+
+.beneficio1_palabras p{
+    margin: 0px 0px;
+}
+
+.comenzar{
+    margin-top: 90px;
+}
+
+.comenzarButton{
+    width: 100%;
+    height: 40px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 50px;
+    background-color: #1DB954;
+    transition: all .2s ease-in-out; 
+    cursor: pointer;
+    
+}
+
+.comenzarButton:hover{
+    transform: scale(1.102); 
+    background-color: rgb(30, 215, 96);
+}
+
+.textoButton2{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.terminosCondiciones{
+    margin-top: 30px;
+}
+
+.terminosCondiciones_label{
+    color: rgb(145, 148, 150);
+    font-size: 12px;
+}
+
+.terminosCondiciones_label a{
+    color: rgb(145, 148, 150);
+}
+
+.cardViewPreciosDatos{
     
 }
